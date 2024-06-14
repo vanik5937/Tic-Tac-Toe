@@ -99,7 +99,7 @@ def play(event):
 
         if draw() == True:
             label.config(text=f"Game Draw", font=("Arial", 20))
-        print(moves)
+        
 
 def restart_play():
     global game
