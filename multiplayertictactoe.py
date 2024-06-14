@@ -76,7 +76,7 @@ def play(event):
             moves[int(bv)] = turn
 
             if check(turn) == True:
-                label.config(text=f"{turn} wins", font=("Arial", 20))
+                label.config(text=f"{turn} Won", font=("Arial", 20))
 
 
                 game = False
@@ -90,7 +90,7 @@ def play(event):
 
             if check(turn) == True:
 
-                label.config(text=f"{turn} wins", font=("Arial", 20))
+                label.config(text=f"{turn} Won", font=("Arial", 20))
 
                 game = False
                 return
